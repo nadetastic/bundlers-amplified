@@ -1,0 +1,20 @@
+{
+  "name": "esbuild-amplified-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-old": "esbuild index.jsx --bundle --outfile=out.js",
+    "build": "./build.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^5.1.1",
+    "esbuild": "0.17.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
